@@ -1,3 +1,11 @@
+---
+name: "User Story"
+about: "Describe a feature from a user's perspective"
+title: "[Story] "
+labels: ["story", "enhancement"]
+assignees: ""
+---
+
 **As a** [role]  
 **I need** [function]  
 **So that** [benefit]  
