@@ -2,8 +2,8 @@
 Account API Service Test Suite
 
 Test cases can be run with the following:
-  nosetests -v --with-spec --spec-color
-  coverage report -m
+    nosetests -v --with-spec --spec-color
+    coverage report -m
 """
 import os
 import logging
@@ -167,4 +167,3 @@ class TestAccountService(TestCase):
         resp = self.client.delete(f"{BASE_URL}/{account.id}")
         self.assertEqual(resp.status_code, status.HTTP_204_NO_CONTENT)
       
-
